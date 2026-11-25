@@ -2,72 +2,46 @@
 
 **Learn machine learning by trying it.**
 
-🔗 **Live site:** [ilearnml.com](https://ilearnml.com)
+🔗 [ilearnml.com](https://ilearnml.com)
 
-![iLearnML sandbox](images/hero.gif)
+<img width="1000" height="700" alt="image" src="https://github.com/user-attachments/assets/12f6fb73-0245-42fc-8ec1-b8e2d2e70034" />
 
-## The problem
+## Why I built this
 
-Most people meet machine learning as formulas on a slide. You can read how k-means or a neural network works and still have no feeling for what actually happens when you change a setting.
+When I started my master's in data science, I noticed how most machine learning is taught. You get a formula, a slide and maybe a static chart. Then you are expected to understand what happens inside the model.
 
-iLearnML flips that around. You play with the algorithm first, see what happens, and then read why.
+I think that is backwards. Nobody learns to ride a bike by reading about balance. You get on and try.
 
-## What it is
+So I built the place I wanted to learn in myself. A site where you play with the algorithm first and understand it along the way.
 
-A free learning site with plain-English lessons, worked examples and interactive sandboxes.
+## The idea
 
-- **Sandbox:** 13 interactive machine learning demos. Change the data and the settings and watch the model react in real time.
-- **Guided lessons:** each demo has optional lessons with small "Your turn" tasks next to the sandbox.
-- **Puzzles:** code puzzles for practicing Python.
-- **Lessons:** machine learning, statistics, NLP, computer vision, SQL, cloud and data strategy.
-- **Career paths:** for example what it takes to become a data scientist.
+Machine learning is not only for programmers anymore. Economists, accountants, marketers and business students meet it in their studies and their jobs. Most of them never get a feeling for what the models actually do. They just trust the output.
 
-![Sandbox with guided lesson](images/sandbox-lesson.png)
+iLearnML is meant to close that gap. It should be free, in plain English and fun enough that you want to keep going.
 
-## The demos
+## The sandbox
 
-| Supervised learning | Unsupervised learning |
-|---|---|
-| Regression (ridge, lasso, elastic net) | K-means and k-medoids |
-| Logistic regression | DBSCAN |
-| K-nearest neighbors | Hierarchical clustering |
-| Support vector machines | Spectral clustering |
-| Decision trees | Dimensionality reduction (PCA, MDS, Isomap, Kernel PCA, t-SNE, LDA) |
-| Neural network | Isolation forest |
-| Backpropagation (step by step) | |
+This is the part I am most proud of. You pick an algorithm, and you see it work right in front of you. Drag the data around, turn the settings up and down, and watch the model react straight away.
 
-![Clustering demo](images/clustering.png)
-
-## Design choices
-
-- **Sandbox first.** The demo is the default view. Lessons are optional, so curious users can just play.
-- **Numbers, not only charts.** Every demo shows the actual values (accuracy, loss, distances), so the learner connects the picture to the math.
-- **Plain language.** Every term has a short everyday explanation. The target is a student who has never trained a model.
-- **Seeded experiments.** Presets give the same result every time, so a lesson can say "now look at this" and it is actually there.
-- **Teaching real pitfalls.** For example the neural network demo uses a train/validation split and early stopping to show overfitting.
-
-## Who it is for
-
-Data science students first. Also students in accounting, computer science, economics, marketing and real estate who meet machine learning in their courses. Built for desktop use at school or work.
-
-## My role
-
-[Write this yourself. Example: "I came up with the concept, designed the learning experience and the lessons, and led the development and testing. Two fellow students helped test and give feedback. The code was built with AI-assisted development."]
-
-## What I learned
-
-[2-4 sentences in your own words. For example what changed after user feedback, what was hardest to explain, what you would do differently.]
-
-## Status
-
-Live prototype. Improved through feedback from fellow students at SDU.
-
-## Source code
-
-The source code is not public. This repository documents the project.
+You don't have to read anything first. Play with it, break it and see what happens. When you get curious about why, the explanation is right next to it.
+<img width="1000" height="700" alt="image" src="https://github.com/user-attachments/assets/f538d525-72a9-4bc2-86d0-3e88a60f30e1" />
+<img width="1000" height="700" alt="image" src="https://github.com/user-attachments/assets/c3bf3959-ecdf-4861-b5c2-690e9cbc2145" />
 
 
+## The puzzles
 
+Learning to code can feel like staring at a blank page. In the puzzles you put the code together piece by piece instead. You choose your own level, so you can start easy and work your way up when you are ready.
 
+<img width="1000" height="700" alt="image" src="https://github.com/user-attachments/assets/6ed47c31-9eee-4e50-b19b-a7454c310662" />
+<img width="1000" height="700" alt="image" src="https://github.com/user-attachments/assets/e8cee8b1-ec64-47f2-83d9-fe76cd8d864e" />
 
+## Where it's going
 
+The site is live and still growing. Fellow students test it and give feedback, and it gets better every round. I want iLearnML to be the place students go when the lecture didn't click.
+
+Got feedback or an idea? I would love to hear it.
+
+---
+
+*The source code is not public. The site is free to use at [ilearnml.com](https://ilearnml.com).*
